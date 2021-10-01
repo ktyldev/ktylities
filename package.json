@@ -1,0 +1,14 @@
+{
+    "name": "com.ktyl.ktools",
+    "version": "0.1.0",
+    "description": "a collection of general-purpose scripts",
+    "displayName": "ktools",
+    "unity": "2019.1",
+    "author": {
+        "name": "Cat Flynn",
+        "email": "cat@ktyl.dev",
+        "url": "https://ktyl.dev"
+    },
+    "changelogUrl": "TODO",
+    "documentationUrl": "TODO"
+}

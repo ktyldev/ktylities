@@ -1,0 +1,16 @@
+{
+    "name": "Ktools.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ae8f058fad4cb66438caed0fe49e6c26"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
