@@ -38,8 +38,15 @@ namespace Ktyl.Ktools
 #endif
     #endregion
 
+    /// <summary>
+    /// A runtime-independent instance of a variable of type <typeparamref name="T"/>.
+    /// </summary>
+    /// <typeparam name="T">The type of the variable.</typeparam>
     public abstract partial class SerialVar<T> : ScriptableObject
     {
+        /// <summary>
+        /// The current value of the variable.
+        /// </summary>
         public T Value
         {
             get => Application.isPlaying ? _value : _initialValue;
