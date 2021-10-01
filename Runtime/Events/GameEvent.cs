@@ -51,6 +51,9 @@ namespace Ktyl.Ktools
 #endif
     #endregion
 
+    /// <summary>
+    /// ScriptableObject-based event for decoupled inter-object messaging at runtime.
+    /// </summary>
     [CreateAssetMenu(menuName = "ktools/Events/Game Event")]
     public partial class GameEvent : ScriptableObject
     {
@@ -59,6 +62,9 @@ namespace Ktyl.Ktools
         private readonly List<GameEventListener> _listeners = new List<GameEventListener>();
         private readonly List<GameEventListener> _listenersBuffer = new List<GameEventListener>();
 
+        /// <summary>
+        /// Raise the event, invoking each listener.
+        /// </summary>
         public virtual void Raise()
         {
             if (_logRaised)
@@ -76,6 +82,10 @@ namespace Ktyl.Ktools
             }
         }
 
+        /// <summary>
+        /// Add an event listener.
+        /// </summary>
+        /// <param name="listener">The listener to add.</param>
         public void Register(GameEventListener listener)
         {
             if (_listeners.Contains(listener))
@@ -87,6 +97,10 @@ namespace Ktyl.Ktools
             _listeners.Add(listener);
         }
 
+        /// <summary>
+        /// Remove an event listener.
+        /// </summary>
+        /// <param name="listener">The listener to remove.</param>
         public void Unregister(GameEventListener listener)
         {
             if (!_listeners.Contains(listener))

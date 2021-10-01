@@ -5,6 +5,9 @@ using UnityEngine.Events;
 
 namespace Ktyl.Ktools
 {
+    /// <summary>
+    /// A runtime listener for a GameEvent.
+    /// </summary>
     public class GameEventListener : MonoBehaviour
     {
         [SerializeField] private GameEvent _event;
