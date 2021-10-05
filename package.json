@@ -1,8 +1,8 @@
 {
-    "name": "com.ktyl.ktools",
-    "version": "0.1.0",
-    "description": "a collection of general-purpose scripts",
-    "displayName": "ktools",
+    "name": "com.ktyl.ktylities",
+    "version": "0.1.1",
+    "description": "a collection of general-purpose utilities to make life in unity easier",
+    "displayName": "ktylities",
     "unity": "2019.1",
     "author": {
         "name": "Cat Flynn",
