@@ -1,7 +1,6 @@
-# ktyl's ktools
+# ktylities
 
-ktools is a general-purpose set of scripts that can be used in Unity projects to manage project architecture and runtime performance.
-
+ktylities is a general-purpose set of scripts that can be used in make your life easier
 ## Features
 
 ### Scriptable Object-based Events and Variables
