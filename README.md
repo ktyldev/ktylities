@@ -1,6 +1,7 @@
 # ktylities
 
 ktylities is a general-purpose set of scripts that can be used in make your life easier
+
 ## Features
 
 ### Scriptable Object-based Events and Variables
@@ -15,5 +16,5 @@ A generic `IPool<T>` interface and a stack-based implementation avoid deallocati
 
 1.  Create or open a Unity project.
 2.  Open Window -> Package Manager.
-3.  Click the '+' icon in the top left corner, select 'Add Package from git URL' and input the URL to the ktools repository: https://github.com/ktyldev/ktylities.git.
+3.  Click the '+' icon in the top left corner, select 'Add Package from git URL' and input the URL to the ktylities repository: https://github.com/ktyldev/ktylities.git.
 4.  Enjoy!
