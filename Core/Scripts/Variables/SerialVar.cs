@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Ktyl.Ktools
+namespace Ktyl.Ktylities
 {
     #region Editor
 #if UNITY_EDITOR

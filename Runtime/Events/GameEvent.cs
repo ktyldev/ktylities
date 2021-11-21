@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Ktyl.Ktools
+namespace Ktyl.Ktylities
 {
     #region Editor
 #if UNITY_EDITOR
@@ -54,7 +54,7 @@ namespace Ktyl.Ktools
     /// <summary>
     /// ScriptableObject-based event for decoupled inter-object messaging at runtime.
     /// </summary>
-    [CreateAssetMenu(menuName = "ktools/Events/Game Event")]
+    [CreateAssetMenu(menuName = "ktylities/Events/Game Event")]
     public partial class GameEvent : ScriptableObject
     {
         [SerializeField] private bool _logRaised;

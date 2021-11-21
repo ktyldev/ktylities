@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Ktyl.Ktools
+namespace Ktyl.Ktylities
 {
 #if UNITY_EDITOR
     using UnityEditor;
@@ -11,6 +11,6 @@ namespace Ktyl.Ktools
     public class BoolEditor : SerialVarEditor<bool> { }
 #endif
 
-    [CreateAssetMenu(menuName = "ktools/Variables/Bool")]
+    [CreateAssetMenu(menuName = "ktylities/Variables/Bool")]
     public class Bool : SerialVar<bool> { }
 }

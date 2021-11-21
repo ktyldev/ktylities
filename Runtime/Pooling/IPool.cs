@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Ktyl.Ktools
+namespace Ktyl.Ktylities
 {
     /// <summary>
     /// A pool of <typeparamref name="T"/> instances.

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Ktyl.Ktools
+namespace Ktyl.Ktylities
 {
     /// <summary>
     /// A runtime listener for a GameEvent.

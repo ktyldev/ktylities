@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Ktyl.Ktools
+namespace Ktyl.Ktylities
 {
     public class StackPool<T> : IPool<T>
     {
