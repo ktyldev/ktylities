@@ -15,5 +15,5 @@ A generic `IPool<T>` interface and a stack-based implementation avoid deallocati
 
 1.  Create or open a Unity project.
 2.  Open Window -> Package Manager.
-3.  Click the '+' icon in the top left corner, select 'Add Package from git URL' and input the URL to the ktools repository: https://github.com/ktyldev/ktools.git.
+3.  Click the '+' icon in the top left corner, select 'Add Package from git URL' and input the URL to the ktools repository: https://github.com/ktyldev/ktylities.git.
 4.  Enjoy!
