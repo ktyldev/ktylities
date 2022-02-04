@@ -1,6 +1,6 @@
 {
     "name": "com.ktyl.ktylities",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "a collection of general-purpose utilities to make life in unity easier",
     "displayName": "ktylities",
     "unity": "2019.1",
