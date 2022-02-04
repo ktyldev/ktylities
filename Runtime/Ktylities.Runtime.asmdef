@@ -1,5 +1,5 @@
 {
-    "name": "Ktools.Runtime",
+    "name": "Ktyl.Ktylities.Runtime",
     "rootNamespace": "",
     "references": [
         "GUID:ae8f058fad4cb66438caed0fe49e6c26"
